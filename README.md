@@ -12,6 +12,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/zohairbadshah/) to sta
 
 ## Visit the Website
 
-🔗 Check out my portfolio website live: [Your Portfolio URL]
+🔗 Check out my portfolio website live: https://zohairbadshah.netlify.app/
 
 Feel free to explore, contribute, and reach out. Your feedback is invaluable in my growth as a tech enthusiast and future entrepreneur. 🚀
