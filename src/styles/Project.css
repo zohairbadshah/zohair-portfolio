@@ -1,0 +1,17 @@
+.project {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #111;
+
+  }
+  
+  
+.project-example{
+    display: flex;
+    margin-top: 8%;
+    
+}

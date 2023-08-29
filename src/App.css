@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.custom-nav{
+  color: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a{
+  color: rgb(120, 67, 233);
+}
+
+.home-hero {
+  color: hwb(0 100% 0%);
+
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.8) 100%,
+    rgba(7, 7, 7, 0.8) 90%
+  );
+  background-position: center;
+  height: 60rem;
+  min-height: 60rem;
+  max-height: fit-content;
+  position: relative;
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mouse::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 1;
+  -webkit-animation: wheel 1.3s infinite;
+  -moz-animation: wheel 1.3s infinite;
+  -ms-animation: wheel 1.3s infinite;
+  -o-animation: wheel 1.3s infinite;
+  animation: wheel 1.3s infinite;
+}
+
+.home-about {
+  /* background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(41, 41, 41, 0.8) 90%
+  ); */
+  background-color: #000000;
+
+  background-position: center;
+  height: 70rem;
+  min-height: fit-content;
+  max-height: fit-content;
+  position: relative;
+}
+
+.home-projects {
+  
+  background-color: #090909;
+  background-position: center;
+  height: fit-content;
+  min-height: 60rem;
+  max-height: 150rem;
+  position: relative;
+}
+
+.conclusion {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: #000000;
+  color: #b1adad;
+  background-position: center;
+  height: 15rem;
+  min-height: 10rem;
+  max-height: 150rem;
+  position: relative;
+  background-color: rgba(7, 7, 7, 0.67);
 }
