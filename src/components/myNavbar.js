@@ -3,7 +3,7 @@ import '../App.css';
 
 const Navbar = () => {
     return (
-        <nav style={{ zIndex: 99999 }} className="navbar navbar-expand-lg navbar-dark bg-body-light fixed-top py-2">
+        <nav style={{ zIndex: 99999 }} className="navbar navbar-expand-lg navbar-light bg-body-light fixed-top py-2">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
                     <img 

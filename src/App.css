@@ -16,12 +16,12 @@ a{
 
   background-image: radial-gradient(
     circle,
-    rgba(0, 0, 0, 0.8) 100%,
+    rgba(255, 255, 255, 0.8) 100%,
     rgba(7, 7, 7, 0.8) 90%
   );
   background-position: center;
-  height: 60rem;
-  min-height: 60rem;
+  height: 40rem;
+  min-height: 50rem;
   max-height: fit-content;
   position: relative;
 }
@@ -62,7 +62,7 @@ a{
   background-color: #000000;
 
   background-position: center;
-  height: 70rem;
+  height: 60rem;
   min-height: fit-content;
   max-height: fit-content;
   position: relative;
@@ -70,7 +70,7 @@ a{
 
 .home-projects {
   
-  background-color: #090909;
+  background-color: white;
   background-position: center;
   height: fit-content;
   min-height: 60rem;

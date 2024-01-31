@@ -76,7 +76,7 @@ const SideBar = () => {
             transition: "background .3s",
             borderRadius: "5px",
           }}
-          href="https://drive.google.com/file/d/1zBx6Xc9MEcMfhFZU0LjbvjgKJMSUTLpe/view?usp=sharing"
+          href="https://drive.google.com/file/d/1SzfVOyKSbgehXaDaRysbDnToEueThZoW/view?usp=drive_link"
           target="_blank"
           rel="noreferrer"
         >

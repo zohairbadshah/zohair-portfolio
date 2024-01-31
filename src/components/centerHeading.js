@@ -8,7 +8,7 @@ const CenterHeading= ()=>{
       transform:"translate(-50%,-50%)",
       maxWidht:"90rem",
       width:"92%",
-      color:'white',
+      color:'black',
     };
     const buttonStyle={
       background:" #7843e9",
@@ -33,15 +33,11 @@ const CenterHeading= ()=>{
     HEY, I'M ZOHAIR<br></br> <center style={{letterSpacing:10}}>BADSHAH</center>
     </h1>
     <h4 className='text-center'>
-        A Machine Learning focused Developer building the innovative solutions
-        <br></br>that leads to the success of the overall product
+        A Machine Learning enthusiast crafting End-to-End Solutions for Innovation and Impact
+        <br></br>
     </h4>
     <a href="#projects" className='inline-block' style={buttonStyle} type="button " class="btn ">PROJECTS</a>
-    
     </div>
-
-
-  
     </>
     )
   

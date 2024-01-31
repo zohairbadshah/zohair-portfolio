@@ -3,9 +3,9 @@ import "../styles/Project.css";
 
 const Project = () => {
   return (
-    <div data-bs-spy="scroll" style={{backgroundColor:"black"}}>
+    <div data-bs-spy="scroll" style={{backgroundColor:"white"}}>
       <h2 id="projects" className="project">
-        <span style={{ marginTop: "50px", color: "white" }}>PROJECTS</span>
+        <span style={{ marginTop: "50px", color: "black" }}>PROJECTS</span>
         <div
           style={{
             alignContent: "center",
@@ -26,11 +26,11 @@ const Project = () => {
             maxWidth: "65rem",
             margin: "auto",
             lineHeight: "1.6",
-            color: "white",
+            color: "black",
           }}
           className=""
         >
-          Here you will find some of the personal and clients projects that I
+          Here you will find some of the personal projects that I
           created
         </span>
       </h2>
@@ -48,11 +48,11 @@ const Project = () => {
             alt="Project 1"
           />
           <div className="project">
-            <h1 style={{ color: "white" }}>InvesTech</h1>
+            <h1 style={{ color: "black" }}>InvesTech</h1>
             <p
               className=""
               style={{
-                color: "white",
+                color: "black",
                 alignItems: "center",
                 paddingLeft: "10px",
               }}
@@ -79,7 +79,7 @@ const Project = () => {
             </a>
           </div>
         </div>
-        <div className="project-example">
+        {/* <div className="project-example">
           <img
             style={{
               width: "50%",
@@ -91,7 +91,7 @@ const Project = () => {
             alt="Project 2"
           />
           <div className="project">
-            <h1 style={{ color: "white" }}>Kalaakar</h1>
+            <h1 style={{ color: "black" }}>Kalaakar</h1>
             <p
               className=""
               style={{
@@ -125,7 +125,7 @@ const Project = () => {
           <div>
             
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
