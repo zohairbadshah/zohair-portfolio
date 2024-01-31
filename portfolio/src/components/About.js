@@ -12,9 +12,9 @@ const About = () => {
             backgroundColor: "rgba(65, 79, 158,0.8)",
             borderRadius: "35%",
             width: "30px",
-            height: "10px",
+            height: "1px",
             marginTop: "20px",
-            marginBottom: "25px",
+            marginBottom: "30px",
           }}
         ></div>
         <span
@@ -49,49 +49,29 @@ const About = () => {
             className="text-muted"
           >
             <p>
-              I'm a Frontend Web Developer building the Front-end of Websites
-              and Web Applications that leads to the success of the overall
-              product. Check out some of my work in the Projects section.
+               I'm a Machine Learning and Data Science Enthusiast with Industry Experience<br></br>developing End-to-End solutions that drive success for diverse projects.<br></br>Explore my work in the Projects section, showcasing my proficiency in building impactful Web Applications integrated with State-of-the-Art ML techniques.
+            Currently open to job opportunities that align with my skills and experience. Feel free to reach out if you have an exciting opportunity for me to contribute, learn, and grow.
             </p>
             <p>
-              I also like sharing content related to the stuff that I have
-              learned over the years in Web Development so it can help other
-              people of the Dev Community. Feel free to Connect or Follow me on
-              my <a href="https://www.linkedin.com/in/zohairbadshah/" target="_blank" rel="noreferrer">Linkedin</a> where I post useful content related to Web Development
-              and Programming
-            </p>
-            <p>
-              I'm open to Job opportunities where I can contribute, learn and
-              grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
+               I also like sharing content related to the stuff that I have
+              learned over the years.Feel free to Connect or Follow me on
+              my <a href="https://www.linkedin.com/in/zohairbadshah/" target="_blank" rel="noreferrer">Linkedin</a>.
             </p>
           </h4>
         </span>
         <span style={{   maxWidth: "inherit" }}>
           <h3>My Skills</h3>
           <span className="round-box ">
-            <span class="custom-ring">React</span>
-            <span class="custom-ring">Node</span>
-
-            <span class="custom-ring">JavaScript</span>
-
             <span class="custom-ring">Python</span>
-
-            <span class="custom-ring">Flutter</span>
-
-            <span class="custom-ring">ML</span>
-
-            <span class="custom-ring">AI</span>
-
+            <span class="custom-ring">Tensorflow</span>
+            <span class="custom-ring">Deep Learning</span>
+            <span class="custom-ring">Machine Learning</span>
             <span class="custom-ring">HTML</span>
             <span class="custom-ring">CSS</span>
-            <span class="custom-ring">DSA</span>
-
+            <span class="custom-ring">Problem Solving</span>
             <span class="custom-ring">Git</span>
-
             <span class="custom-ring">GitHub</span>
             <span class="custom-ring">MongoDb</span>
-
             <span class="custom-ring">SQL</span>
           </span>
         </span>
